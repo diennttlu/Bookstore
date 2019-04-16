@@ -1,0 +1,89 @@
+/*Beggin header*/
+#header{
+	border: 1px solid red;
+}
+#header-menu-top{
+	background-color: #424242;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+
+}
+#header-menu-top a{
+	text-decoration: none;
+	color: #ececec;
+	padding-right: 10px;
+}
+
+#header-logo{
+	height: 140px;
+}
+
+#header-search{
+	border: 1px solid green;
+	height: 140px;
+
+}
+#header-search .form-inline{
+	padding-top: 10%;
+}
+#header-search .form-inline .form-control{
+	width: 280px;
+	height: 50px; 
+}
+#header-search .form-inline .btn{
+	width: 130px;
+	height: 50px;
+}
+#header-cart{
+	border: 1px solid pink;
+	height: 140px;
+
+}
+#header-menu-middle{
+	border: 1px solid grey;
+	height: 50px;
+}
+/*End Header*/
+
+/*Beggin Banner*/
+#banner{
+	border: 1px solid green;
+	height: 400px;
+}
+#banner-slider{
+	border: 1px solid pink;
+	height: 400px;
+}
+#banner-deal{
+	padding-left: 15px;
+	border: 1px solid blue;
+	height: 400px;
+}
+/*End Banner*/
+
+/*Beggin Content*/
+#content{
+	border: 1px solid orange;
+	height: 1000px;
+}
+#content-left-menu{
+	border: 1px solid pink;
+	height: 1000px;
+}
+#content-tab{
+	border: 1px solid blue;
+	height: 1000px;
+}
+#content-pagination{
+	border: 1px solid red;
+	height: 100px;
+}
+/*End Content*/
+
+/*Beggin Footer*/
+#footer{
+	border: 1px solid pink;
+	height: 250px;
+}
+/*End Footer*/
