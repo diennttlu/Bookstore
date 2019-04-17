@@ -90,7 +90,7 @@
 	display: block;
 	text-decoration: none;
 	color: #6a6a6a;
-	font-size: 20px;
+	font-size: 19px;
 	padding: 5px 5px;
 }
 #header-menu-middle ul{
@@ -122,32 +122,27 @@
 /*Beggin Banner*/
 #banner{
 	padding-top: 15px;
-	border: 1px solid green;
-	height: 370px;
+	/*border: 1px solid green;*/
+	height: 375px;
 }
 #banner-slider{
-	border: 1px solid pink;
-	height: 350px;
+	/*border: 1px solid pink;*/
+	height: 360px;
 }
-
-
-
-
-
-
 #banner-deal{
-	border: 1px solid blue;
-	height: 350px;
+	/*border: 1px solid blue;*/
+	height: 360px;
 }
 /*End Banner*/
 
 /*Beggin Content*/
 #content{
+	margin-top: 15px;
 	border: 1px solid orange;
 	height: 1000px;
 }
-#content-left-menu{
-	border: 1px solid pink;
+#content-menu-left{
+	border: 1px solid black;
 	height: 1000px;
 }
 #content-tab{
