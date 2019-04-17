@@ -1,9 +1,8 @@
 /*Beggin header*/
-#header{
-	border: 1px solid red;
+#header {
 }
 #header-menu-top{
-	background-color: #424242;
+	
 	height: 30px;
 	line-height: 30px;
 	text-align: right;
@@ -14,13 +13,19 @@
 	color: #ececec;
 	padding-right: 10px;
 }
-
+#header-middle{
+	background-image: url("images/bgr-header_02.jpg");
+	background-size: 100% 140px;
+}
+#header-menu-top a:hover{
+	color: #60ed21;
+}
 #header-logo{
 	height: 140px;
 }
 
 #header-search{
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	height: 140px;
 
 }
@@ -29,36 +34,110 @@
 }
 #header-search .form-inline .form-control{
 	width: 280px;
-	height: 50px; 
+	height: 50px;
+	border: solid 3px #42ba0d; 
 }
 #header-search .form-inline .btn{
-	width: 130px;
+	width: 120px;
 	height: 50px;
 }
 #header-cart{
-	border: 1px solid pink;
 	height: 140px;
-
 }
+#header-cart #cart-icon-info{
+	height: 70px
+}
+#hearder-cart #cart-checkout{
+	height: 70px;
+}
+#btnCheckout .btn{
+	width: 100px;
+}
+#total{
+	float: left;
+}
+#btnCheckout{
+	float: right;
+	padding-right: 10px;
+	border-right: 1px solid #cecece;
+}
+#block{
+	font-size: 30px;
+	padding: 10px 10px;
+	margin-top: 10px;
+	border-right: 1px solid #cecece;
+}
+#block1{
+	font-weight: bold;
+	font-size: 25px;
+}
+#block2{
+	height: 70px;
+	padding: 30px 30px;
+}
+#block3{
+	height: 70px;
+	font-size: 24.5px;
+	padding: 0px 0px;
+	margin: 0px;
+}
+/*menu ngang*/
 #header-menu-middle{
-	border: 1px solid grey;
-	height: 50px;
+	/*border-top: solid 1px #cecece;
+	border-bottom: solid 1px #cecece;*/
+}
+#header-menu-middle a{
+	display: block;
+	text-decoration: none;
+	color: #6a6a6a;
+	font-size: 20px;
+	padding: 5px 5px;
+}
+#header-menu-middle ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+}
+#header-menu-middle a:hover{
+	color:#ffffff;
+	background-color: #8cce6f ;
+}
+#header-menu-middle ul li:hover > ul{
+	display:block;
+	z-index: 1; 
+}
+#header-menu-middle ul li{
+	position: relative;
+	display: inline-block;
+	width: 116.5px;
+}
+#header-menu-middle ul li ul{
+	position: absolute;
+	display: block;
 }
 /*End Header*/
 
 /*Beggin Banner*/
 #banner{
+	padding-top: 15px;
 	border: 1px solid green;
-	height: 400px;
+	height: 370px;
 }
 #banner-slider{
 	border: 1px solid pink;
-	height: 400px;
+	height: 350px;
 }
+
+
+
+
+
+
 #banner-deal{
-	padding-left: 15px;
 	border: 1px solid blue;
-	height: 400px;
+	height: 350px;
 }
 /*End Banner*/
 
@@ -86,4 +165,4 @@
 	border: 1px solid pink;
 	height: 250px;
 }
-/*End Footer*/
+/*End Footer
