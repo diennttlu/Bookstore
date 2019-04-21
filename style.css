@@ -145,10 +145,12 @@
 	border: 1px solid black;
 	height: 1000px;
 }
+
 #content-tab{
 	border: 1px solid blue;
 	height: 1000px;
 }
+
 #content-pagination{
 	border: 1px solid red;
 	height: 100px;
